@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind CSS</title>
+  <link rel="stylesheet" href="../dist/output.css" />
+</head>
+
+<body>
+  <div class="page-wrapper bg-gray-100">
+    <!-- Main content -->
+    <div class="container xl:max-w-full">
+      <div class="details__head w-100  p-5 mb-10">
+        <div class="flex justify-between items-center">
+          <div class="flex justify-start items-center">
+            <div class="image__section max-w-60 max-h-60 min-w-60 min-h-60 overflow-hidden rounded-r-100 mr-5">
+              <img class="w-100 h-100 object-cover"
+                src="https://images.pexels.com/photos/13085461/pexels-photo-13085461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="User Picture" />
+            </div>
+            <div class="text-left">
+              <h2 class="text-black text-xl font-semibold font-sans">Ricardo Cooper</h2>
+              <span class="text-gray-500 text-sm">Applied for <span class="text-black font-semibold">Front End
+                  Developer</span> on
+                August 25,
+                2020</span>
+            </div>
+          </div>
+          <div class="buttons">
+            <button
+              class="border border-gray-300 outline-none shadow-sm bg-white transition-all duration-300 ease-linear rounded-md py-2.5 px-5 text-black text-sm font-semibold mr-2 ">Disqualify</button>
+            <button
+              class="border border-gray-300 outline-none bg-blue-600 rounded-md py-2.5 px-5 text-white text-sm font-normal transition-all duration-300 ease-linear">Advance
+              to offer</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="main__content grid grid-cols-4 gap-6 p-5 mb-10">
+        <div class="col-span-3 bg-white shadow-sm rounded-lg overflow-hidden">
+          <div class="p-6 border-b border-gray-100">
+            <div class="card__head">
+              <h3 class="text-lg text-black font-semibold">
+                Applicant Information
+              </h3>
+              <span class="text-gray-500 text-sm">Personal details and application.</span>
+            </div>
+          </div>
+          <div class="p-6 grid grid-cols-2 gap-6">
+            <div class="heading">
+              <h5 class="text-gray-400 text-sm font-medium">Application for</h5>
+              <span class="text-black text-sm capitalize">Backend Developer</span>
+            </div>
+            <div class="heading">
+              <h5 class="text-gray-400 text-sm font-medium">Email address</h5>
+              <span class="text-black text-sm capitalize">ricardocooper@gmail.com</span>
+            </div>
+            <div class="heading">
+              <h5 class="text-gray-400 text-sm font-medium">Salary Expectation</h5>
+              <span class="text-black text-sm capitalize">$120,000</span>
+            </div>
+            <div class="heading">
+              <h5 class="text-gray-400 text-sm font-medium">Phone</h5>
+              <span class="text-black text-sm capitalize">+1-555-555-5555</span>
+            </div>
+            <div class="heading col-span-2">
+              <h5 class="text-gray-400 text-sm font-medium">About</h5>
+              <span class="text-black text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
+                officiis sapiente excepturi nulla, animi expedita reprehenderit maxime, ipsa facilis, quisquam labore
+                nobis possimus! Dicta quae consequatur, at iste adipisci, possimus animi, qui voluptatem asperiores
+                velit ullam voluptatum repellat repudiandae sed eius placeat veniam ipsum dolor sunt assumenda esse
+                deserunt consectetur? Fuga sit quo accusantium at, molestias perferendis non. Temporibus nulla,
+                perferendis doloribus, et iusto perspiciatis tempore aperiam delectus in inventore, quia facilis. A,
+                nesciunt incidunt. Iure dolor voluptates maxime. Reprehenderit vitae similique fugiat eum atque culpa ab
+                repellendus. Vitae impedit deleniti quo architecto sed nisi hic blanditiis enim corrupti tempore?</span>
+            </div>
+
+          </div>
+          <button class="w-100 px-5 py-3 bg-gray-50 text-gray-500 text-sm">Read full application</button>
+        </div>
+        <div class="col-span-1 bg-white shadow-sm rounded-lg">Welcoem</div>
+
+        <div class="col-span-3 bg-white shadow-sm rounded-lg overflow-hidden">
+          <div class="p-6 border-b border-gray-100">
+            <div class="card__head">
+              <h3 class="text-lg text-black font-semibold">
+                Notes
+              </h3>
+            </div>
+          </div>
+          <div class="p-6 grid grid-cols-2 gap-6">
+            <div class="col-span-2 flex justify-between items-start">
+              <div class="image__section max-w-50 max-h-50 min-w-50 min-h-50 overflow-hidden rounded-r-100 mr-4">
+                <img class="w-100 h-100 object-cover"
+                  src="https://images.pexels.com/photos/13085461/pexels-photo-13085461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt="User Picture" />
+              </div>
+              <div class="details__content">
+                <h5 class="text-black font-semibold text-sm">Leslie Alexander</h5>
+                <span class="text-black text-sm capitalize">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Provident
+                  officiis sapiente excepturi nulla, animi expedita reprehenderit maxime, ipsa facilis, quisquam labore
+                  nobis possimus! Dicta quae consequatur,</span>
+                <p class="text-gray-500 text-sm mt-2 font-semibold">4d ago <a href="#"
+                    class="text-black text-sm font-semibold ml-2">Reply</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-span-2 flex justify-between items-start">
+              <div class="image__section max-w-50 max-h-50 min-w-50 min-h-50 overflow-hidden rounded-r-100 mr-4">
+                <img class="w-100 h-100 object-cover"
+                  src="https://images.pexels.com/photos/13085461/pexels-photo-13085461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt="User Picture" />
+              </div>
+              <div class="details__content">
+                <h5 class="text-black font-semibold text-sm">Leslie Alexander</h5>
+                <span class="text-black text-sm capitalize">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Provident
+                  officiis sapiente excepturi nulla, animi expedita reprehenderit maxime, ipsa facilis, quisquam labore
+                  nobis possimus! Dicta quae consequatur,</span>
+                <p class="text-gray-500 text-sm mt-2 font-semibold">4d ago <a href="#"
+                    class="text-black text-sm font-semibold ml-2">Reply</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-span-2 flex justify-between items-start">
+              <div class="image__section max-w-50 max-h-50 min-w-50 min-h-50 overflow-hidden rounded-r-100 mr-4">
+                <img class="w-100 h-100 object-cover"
+                  src="https://images.pexels.com/photos/13085461/pexels-photo-13085461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt="User Picture" />
+              </div>
+              <div class="details__content">
+                <h5 class="text-black font-semibold text-sm">Leslie Alexander</h5>
+                <span class="text-black text-sm capitalize">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Provident
+                  officiis sapiente excepturi nulla, animi expedita reprehenderit maxime, ipsa facilis, quisquam labore
+                  nobis possimus! Dicta quae consequatur,</span>
+                <p class="text-gray-500 text-sm mt-2 font-semibold">4d ago <a href="#"
+                    class="text-black text-sm font-semibold ml-2">Reply</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-span-2 flex justify-between items-start">
+              <div class="image__section max-w-50 max-h-50 min-w-50 min-h-50 overflow-hidden rounded-r-100 mr-4">
+                <img class="w-100 h-100 object-cover"
+                  src="https://images.pexels.com/photos/13085461/pexels-photo-13085461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt="User Picture" />
+              </div>
+              <div class="details__content">
+                <h5 class="text-black font-semibold text-sm">Leslie Alexander</h5>
+                <span class="text-black text-sm capitalize">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Provident
+                  officiis sapiente excepturi nulla, animi expedita reprehenderit maxime, ipsa facilis, quisquam labore
+                  nobis possimus! Dicta quae consequatur,</span>
+                <p class="text-gray-500 text-sm mt-2 font-semibold">4d ago <a href="#"
+                    class="text-black text-sm font-semibold ml-2">Reply</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-span-2 flex justify-between items-start">
+              <div class="image__section max-w-50 max-h-50 min-w-50 min-h-50 overflow-hidden rounded-r-100 mr-4">
+                <img class="w-100 h-100 object-cover"
+                  src="https://images.pexels.com/photos/13085461/pexels-photo-13085461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt="User Picture" />
+              </div>
+              <div class="details__content">
+                <h5 class="text-black font-semibold text-sm">Leslie Alexander</h5>
+                <span class="text-black text-sm capitalize">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Provident
+                  officiis sapiente excepturi nulla, animi expedita reprehenderit maxime, ipsa facilis, quisquam labore
+                  nobis possimus! Dicta quae consequatur,</span>
+                <p class="text-gray-500 text-sm mt-2 font-semibold">4d ago <a href="#"
+                    class="text-black text-sm font-semibold ml-2">Reply</a>
+                </p>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="w-100 px-5 py-3 pb-6 bg-gray-50 text-gray-500 text-sm flex justify-between items-start">
+            <div class="image__section max-w-50 max-h-50 min-w-50 min-h-50 overflow-hidden rounded-r-100 mr-4">
+              <img class="w-100 h-100 object-cover"
+                src="https://images.pexels.com/photos/13085461/pexels-photo-13085461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="User Picture" />
+            </div>
+            <div class="text-edit w-100">
+              <textarea
+                class="border px-3 py-2 text-black border-gray-300outline-none w-100 shadow-sm rounded-lg h-32 focus:outline-none focus:border-gray-500"
+                placeholder="Add a note"></textarea>
+
+              <button
+                class="border border-gray-300 outline-none mt-2 float-right bg-blue-600 rounded-md py-2.5 px-5 text-white text-sm font-normal transition-all duration-300 ease-linear">Commant</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
